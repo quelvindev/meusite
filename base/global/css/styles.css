@@ -1,0 +1,67 @@
+.nav-link i {
+    margin-right: 5px;
+    color: #007bff; /* Altere a cor se desejar */
+}
+
+#header{
+    display: flex; /* Habilita Flexbox */
+    flex-direction: column; /* Alinha os itens na vertical (um abaixo do outro) */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: calc(100vh - 100px); /* Altura da tela menos o espaço para o navbar */
+
+}
+
+
+
+#header h1 {
+    font-size: 2.5rem; /* Tamanho do título */
+    margin: 0; /* Remove a margem padrão */
+ 
+}
+  
+#header p {
+    font-size: 1.2rem; /* Tamanho do parágrafo */
+    margin-top: 10px; /* Margem entre o título e o parágrafo */
+}
+  
+.img-profile {
+    display: flex; /* Habilita Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: calc(100vh - 100px); /* Altura da tela menos o espaço para o navbar */
+    
+}
+
+.social-icons {
+    display: flex; /* Habilita Flexbox para organizar os ícones */
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    gap: 10px; /* Espaço entre os ícones */
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Ícones pretos */
+    width: 50px; /* Tamanho quadrado */
+    height: 50px; /* Tamanho quadrado */
+    border-radius: 10px; /* Cantos arredondados */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Remove sublinhado dos links */
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Animação suave para o crescimento */
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2); /* Faz o ícone crescer 20% ao passar o mouse */
+    background-color: #f0f0f0; /* Fundo cinza claro ao passar o mouse */
+    color: #333333; /* Ícones ficam um pouco mais claros */
+    text-decoration: none;
+  }
+  
+  .social-icons a i {
+    font-size: 24px; /* Tamanho dos ícones */
+  }
+  
+

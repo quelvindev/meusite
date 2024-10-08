@@ -65,3 +65,18 @@
   }
   
 
+  #skills {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 100vh;           /* Altura do main para 100% da viewport */
+    flex-direction: column; /* Alinha os itens na vertical (um abaixo do outro) */
+}
+
+.icons-skills {
+  height: 20px; 
+  width: 20px; 
+  vertical-align: middle; 
+  margin-right: 5px;
+
+}

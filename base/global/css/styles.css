@@ -65,7 +65,7 @@
   }
   
 
-  #skills {
+  #skills,#formacao, #sobre, #curriculo, #contato{
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center;     /* Centraliza verticalmente */
@@ -79,4 +79,55 @@
   vertical-align: middle; 
   margin-right: 5px;
 
+}
+
+.icons-skills-alin {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  height: 100vh;           /* Define a altura para ocupar a tela inteira, pode ajustar conforme a necessidade */
+}
+
+.icons-skills-alin-center {
+  text-align: center; /* Centraliza o conteúdo dentro da div "b" */
+}
+
+.card-title,.card-subtitle, .card-text  {
+  text-align: center; /* Centraliza o conteúdo dentro da div "b" */
+}
+
+.python-comment {
+  font-family: Consolas, 'Courier New', monospace; /* Fonte similar ao VS Code */
+  font-size: 14px; /* Tamanho da fonte */
+  color: #6A9955; /* Cor típica de comentários no VS Code (verde claro) */
+  background-color: #1e1e1e; /* Fundo escuro do VS Code */
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap; /* Mantém os espaços e quebras de linha */
+  text-align: justify;
+}
+
+.paragraph-about {
+  margin-bottom: 1px; /* Diminui o espaço entre os parágrafos */
+  margin-top: 1px;
+}
+
+
+.typing-effect {
+  font-family: Consolas, 'Courier New', monospace; /* Fonte monoespaçada */
+  font-size: 16px;
+  display: inline-block;
+}
+
+.cursor {
+  display: inline-block;
+  width: 1px; /* Define a largura do cursor */
+  background-color: #000; /* Cor do cursor (pode ajustar para o fundo claro ou escuro) */
+  animation: blink 1s step-start infinite; /* Animação para piscar */
+}
+
+@keyframes blink {
+  50% {
+      opacity: 0;
+  }
 }

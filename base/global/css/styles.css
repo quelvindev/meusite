@@ -1,3 +1,10 @@
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 5rem);
+}
+
+
 .nav-link i {
     margin-right: 5px;
     color: #007bff; /* Altere a cor se desejar */
@@ -29,8 +36,14 @@
     display: flex; /* Habilita Flexbox */
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
-    height: calc(100vh - 100px); /* Altura da tela menos o espaço para o navbar */
+    padding-top: 2%;
+    height: calc(200vh - 100px); /* Altura da tela menos o espaço para o navbar */
     
+}
+.img-fluid {
+
+  max-height: 500px !important;;
+
 }
 
 .social-icons {
@@ -65,7 +78,7 @@
   }
   
 
-  #skills,#formacao, #contato{
+  #skills,#education, #contact{
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center;     /* Centraliza verticalmente */
@@ -74,7 +87,7 @@
 }
 
 
-#sobre {
+#abount {
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center;     /* Centraliza verticalmente */
@@ -172,5 +185,6 @@ font-size: x-large;
   flex-direction: column; /* Alinha os itens em uma coluna (caso deseje um item abaixo do outro) */
   text-align: center; /* Centraliza o texto */
 }
+
 
 

@@ -186,5 +186,7 @@ font-size: x-large;
   text-align: center; /* Centraliza o texto */
 }
 
-
-
+h2:focus {
+  outline: none;
+  border: 1px solid #000; /* Exemplo de um estilo inesperado */
+}

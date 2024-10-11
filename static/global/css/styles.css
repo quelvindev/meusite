@@ -86,7 +86,6 @@ html {
     flex-direction: column; /* Alinha os itens na vertical (um abaixo do outro) */
 }
 
-
 #abount {
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */

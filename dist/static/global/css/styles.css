@@ -1,0 +1,190 @@
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 5rem);
+}
+
+
+.nav-link i {
+    margin-right: 5px;
+    color: #007bff; /* Altere a cor se desejar */
+}
+
+#header{
+    display: flex; /* Habilita Flexbox */
+    flex-direction: column; /* Alinha os itens na vertical (um abaixo do outro) */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: calc(100vh - 100px); /* Altura da tela menos o espaço para o navbar */
+
+}
+
+
+
+#header h1 {
+    font-size: 2.5rem; /* Tamanho do título */
+    margin: 0; /* Remove a margem padrão */
+ 
+}
+  
+#header p {
+    font-size: 1.2rem; /* Tamanho do parágrafo */
+    margin-top: 10px; /* Margem entre o título e o parágrafo */
+}
+  
+.img-profile {
+    display: flex; /* Habilita Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding-top: 2%;
+    height: calc(200vh - 100px); /* Altura da tela menos o espaço para o navbar */
+    
+}
+.img-fluid {
+
+  max-height: 500px !important;;
+
+}
+
+.social-icons {
+    display: flex; /* Habilita Flexbox para organizar os ícones */
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    gap: 10px; /* Espaço entre os ícones */
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Ícones pretos */
+    width: 50px; /* Tamanho quadrado */
+    height: 50px; /* Tamanho quadrado */
+    border-radius: 10px; /* Cantos arredondados */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Remove sublinhado dos links */
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Animação suave para o crescimento */
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2); /* Faz o ícone crescer 20% ao passar o mouse */
+    background-color: #f0f0f0; /* Fundo cinza claro ao passar o mouse */
+    color: #333333; /* Ícones ficam um pouco mais claros */
+    text-decoration: none;
+  }
+  
+  .social-icons a i {
+    font-size: 24px; /* Tamanho dos ícones */
+  }
+  
+
+  #skills,#education, #contact{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 50vh;           /* Altura do main para 100% da viewport */
+    flex-direction: column; /* Alinha os itens na vertical (um abaixo do outro) */
+}
+
+
+#abount {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  height: 120vh;           /* Altura do main para 100% da viewport */
+  flex-direction: column; /* Alinha os itens na vertical (um abaixo do outro) */
+}
+
+
+.icons-skills {
+  height: 20px; 
+  width: 20px; 
+  vertical-align: middle; 
+  margin-right: 5px;
+
+}
+
+.icons-skills-alin {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  height: 100vh;           /* Define a altura para ocupar a tela inteira, pode ajustar conforme a necessidade */
+}
+
+.icons-skills-alin-center {
+  text-align: center; /* Centraliza o conteúdo dentro da div "b" */
+}
+
+.card-title,.card-subtitle, .card-text  {
+  text-align: center; /* Centraliza o conteúdo dentro da div "b" */
+}
+
+.python-comment {
+  font-family: Consolas, 'Courier New', monospace; /* Fonte similar ao VS Code */
+  font-size: 14px; /* Tamanho da fonte */
+  color: #6A9955; /* Cor típica de comentários no VS Code (verde claro) */
+  background-color: #1e1e1e; /* Fundo escuro do VS Code */
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap; /* Mantém os espaços e quebras de linha */
+  text-align: justify;
+}
+
+.paragraph-about {
+  margin-bottom: 1px; /* Diminui o espaço entre os parágrafos */
+  margin-top: 1px;
+}
+
+
+.typing-effect {
+  font-family: Consolas, 'Courier New', monospace; /* Fonte monoespaçada */
+  font-size: 16px;
+  display: inline-block;
+}
+
+.cursor {
+  display: inline-block;
+  width: 1px; /* Define a largura do cursor */
+  background-color: #000; /* Cor do cursor (pode ajustar para o fundo claro ou escuro) */
+  animation: blink 1s step-start infinite; /* Animação para piscar */
+}
+
+@keyframes blink {
+  50% {
+      opacity: 0;
+  }
+}
+
+.badge.badge-light {
+  color: black !important;
+}
+
+.itens-contact{
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  height: auto;           /* Altura do main para 100% da viewport */
+  flex-direction: row; /* Alinha os itens na vertical (um abaixo do outro) */
+
+}
+.itens-contact-row img {
+  width: 200px; /* Ajuste o tamanho conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.itens-contact-row p {
+font-size: x-large;
+}
+
+
+.itens-contact-row {
+  width: 400px; /* Ajuste o tamanho conforme necessário */
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  flex-direction: column; /* Alinha os itens em uma coluna (caso deseje um item abaixo do outro) */
+  text-align: center; /* Centraliza o texto */
+}
+
+
+

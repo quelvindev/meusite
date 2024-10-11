@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'meusite',
+    'django_distill',
 ]
 
 MIDDLEWARE = [
@@ -125,6 +126,9 @@ MEDIA_ROOT = BASE_DIR /'media'
 STATIC_ROOT = BASE_DIR / 'static'
 
 MEDIA_URL = 'media/'
+
+DISTILL_DIR = 'dist/'
+
 
 MEDIA_ROOT = BASE_DIR / 'media'
 # Default primary key field type

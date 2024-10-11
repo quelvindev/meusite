@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Título do Site</title>
+<link rel="stylesheet" href=" /static/global/css/styles.css ">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+    /* Animação de tremor */
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+
+    /* Aplica a animação quando o mouse passar sobre o ícone */
+    .nav-link i:hover {
+      animation: shake 0.5s; /* Duração da animação */
+      animation-iteration-count: infinite; /* Animação contínua enquanto o mouse estiver sobre o ícone */
+    }
+  </style>
+
+  <style>
+    /* Estilo para o header com imagem de fundo */
+    header {
+      background-image: url('https://hermes.dio.me/articles/cover/26a8af21-282e-482b-80f3-e530f70fa0b0.png'); /* URL da imagem */
+      background-size: cover; /* Faz com que a imagem cubra todo o header */
+      background-position: center; /* Centraliza a imagem no header */
+      background-repeat: no-repeat; /* Evita que a imagem se repita */
+      height: 100vh;  /* Altura do header */
+      color: white; /* Cor do texto dentro do header */
+    }
+
+    /* Estilos adicionais para conteúdo dentro do header */
+    header .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%; /* Garante que o conteúdo esteja centralizado verticalmente */
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    header p {
+      font-size: 1.5rem;
+    }
+  </style>
+
+  <style>
+    section {
+        border-top: 0,1px solid #696969; /* Linha superior */
+        border-bottom: 2px solid #696969; /* Linha inferior */
+        padding: 20px; /* Espaço interno */
+        margin: 20px 0; /* Margem acima e abaixo da seção */
+    }
+</style>
+  
+
+
+
+
+
+</head>
+<body>
+    <nav>
+        
+
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background-color: black;">
+        <div class="container">
+            <a class="navbar-brand loho" href="#header">Quelvin Carvalho</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" wfd-invisible="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#skills">
+                            <i class="fas fa-tools"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#education">
+                            <i class="fas fa-graduation-cap"></i> Formação
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#abount">
+                            <i class="fas fa-user"></i> Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contact">
+                            <i class="fas fa-envelope"></i> Contato
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active"  href="media/docs/curriculo.pdf" download>
+                            <i class="fas fa-book"></i>Currículo
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    </nav>
+    <header>
+        
+<header id="header">
+    <span class="img-profile">        
+        <img class="img-fluid img-profile rounded mx-auto mb-2" 
+            src="media/img/quelvin_img.png" alt="Quelvin Carvalho">
+            
+            
+    </span>
+    <h1>Quelvin Carvalho Santana</h1>
+    <p>
+        <strong>Analista de dados</strong>
+    </p>
+    <div class="social-icons">
+        <a href="https://linkedin.com/in/quelvincarvalho">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.github.com/quelvindev">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/quelvincarvalho">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://t.me/quelvincarvalho">
+            <i class="icons fab fa-telegram"></i>
+        </a>
+        <a href="https://wa.me/qr/M7YOKF3I4OFKD1">
+          <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      </div>
+    
+</header>
+
+
+    </header>
+    <main>
+        
+<section id="skills">
+    <h2 style="margin-bottom: 1.5em">Skills</h2>
+    <div>
+        <h4>Linguagens, Ferramentas e Frameworks</h4>
+        <div>
+            <span class="badge badge-light">
+                <img  class="icons-skills" src="media/img/sql-server.png" alt="SQL-Server" > SQL Server
+            </span> 
+            <span class="badge badge-light">
+                <img  class="icons-skills" src="media/img/mysql.png" alt="SQL-Server" > Mysql
+            </span> 
+            <span class="badge badge-light">
+                <img  class="icons-skills" src="media/img/oracle.png" alt="Oracle" > SQL Oracle (PL/SQL)
+            </span> 
+
+            
+        </div>
+        <div>
+            <span class="badge badge-light">   
+                <img  class="icons-skills" src="media/img/html.png" alt="HTML5" >HTML5 
+            </span>
+            <span class="badge badge-light">   
+                <img  class="icons-skills" src="media/img/css-3.png" alt="CSS" >CSS3 
+            </span>
+            <span class="badge badge-light">   
+                <img  class="icons-skills" src="media/img/js.png" alt="JS" >JS 
+            </span>
+            <span class="badge badge-light">   
+                <img  class="icons-skills" src="media/img/arquivo-json.png" alt="JSON" > JSON
+            </span>
+            <span class="badge badge-light">   
+                <img  class="icons-skills" src="media/img/github.png" alt="Github" > Github 
+            </span>
+        </div>
+        <div>
+            <span class="badge badge-light">   
+                <img  class="icons-skills" src="media/img/python.png" alt="Python" > Python
+            </span>
+            <span class="badge badge-light">   
+                <img  class="icons-skills" src="media/img/r.png" alt="R" > R
+            </span>
+            <span class="badge badge-light ">   
+                <img  class="icons-skills" src="media/img/knime.png" alt="Knime" > Knime
+            </span>
+            <span class="badge badge-light">   
+                <img  class="icons-skills" src="media/img/powerbi.png" alt="Knime" > Powerbi
+            </span>
+            <span class="badge badge-light">   
+                <img  class="icons-skills" src="media/img/dax.png" alt="Dax" > Dax
+            </span>
+        </div>
+    </div>
+    
+</section>
+
+        <section id="education">
+    <h2 style="margin-bottom: 1.5em">Formação</h2>
+    <div class="card w-75">
+        <div class="card-body">
+            <h5 class="card-title">UNIFACS - Universidade de Salvador</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Bacharel Sistemas da Informação</h6>
+        <p class="card-text">2017 </p>
+        </div>
+    </div>
+</section>
+
+
+
+        <section id="abount" >
+    <h2 style="margin-bottom: 1.5em">Sobre</h2>
+
+    <div class="python-comment">
+        <div class="typing-effect">
+            <p class="paragraph-about">
+                '''Analista de Dados em Desenvolvimento | Python, SQL, Machine Learning, Visualização de Dados
+       
+                Sou um entusiasta de Data Science com foco em aprimorar minhas habilidades técnicas em Python, 
+                SQL, e ferramentas de Machine Learning. Por meio de estudos autodidatas e cursos, venho desenvolvendo 
+                competências sólidas em análise de dados, modelagem estatística e visualização de insights utilizando 
+                ferramentas como Power BI e Tableau.
+    
+                Possuo habilidades em manipulação e limpeza de dados, construção de dashboards interativos, e aplicação 
+                de técnicas de modelagem preditiva para gerar insights acionáveis. Além disso, tenho experiência em extração, 
+                transformação e carga (ETL) de dados, utilizando pandas e NumPy para análise em Python. Minhas habilidades em 
+                machine learning incluem algoritmos como regressão linear, árvores de decisão, k-means clustering, e redes neurais.
+       
+                Minha proficiência em estatística e análise exploratória de dados (EDA) me permite entender melhor os dados antes de 
+                aplicar modelos. Além disso, domino SQL para consultas em bancos de dados relacionais e não relacionais, e utilizo Excel 
+                para análise de dados e construção de relatórios.
+         
+                Atualmente, estou à procura de oportunidades onde possa aplicar essas habilidades em um ambiente colaborativo, 
+                contribuindo para a tomada de decisões informadas através da análise de grandes volumes de dados. Busco expandir 
+                meu conhecimento em Big Data, Apache Spark, Hadoop, data warehousing, e data mining.
+    
+                Estou aberto a conectar com profissionais da área de Data Science para discutir soluções baseadas em dados e explorar 
+                possíveis colaborações que envolvam automação de processos, reporting avançado, análise preditiva, integração de dados, 
+                visualização interativa, técnicas de amostragem, business intelligence, data governance, e comunicação de resultados.'''<span class="cursor">|</span>
+                
+            </p>
+        </div>
+    </div>    
+</section>
+        
+<section id="contact">
+        <h2 style="margin-bottom: 1.5em">Contato</h2>
+    <div class="itens-contact">
+        <div class="itens-contact-row">
+            <img src="media/img/telefone.png" alt="telefone">
+            <p>
+                <a href="tel:+5575991898088">
+                    <p>(75) 99189-8088</p>
+                </a>
+            </p>
+        </div>
+        <div class="itens-contact-row">
+            <img src="media/img/e-mail.png" alt="email">
+            <p>
+                <a href="mailto:quelvidev@gmail.com">
+                    <p>quelvidev@gmail.com</p>
+                </a>
+            </p>
+        </div>
+    </div>
+</section>
+
+        <section id="curriculo">
+    
+
+</section>
+    </main>
+
+    <!-- Scripts do Bootstrap e jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

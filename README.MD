@@ -76,8 +76,6 @@ cd meusite
 
 
 
-_Quelvin Carvalho_
-
 ## 🔧 Contribuição
 
 Fique à vontade para contribuir com melhorias no projeto! Basta seguir estes passos:

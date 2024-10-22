@@ -72,6 +72,8 @@ cd meusite
 ```
 3.Abra o arquivo `index.html` no seu navegador favorito 🌐.
 
+![Quelvin Carvalho](media/img/pagina_inicial_site.png)
+
 
 
 _Quelvin Carvalho_
